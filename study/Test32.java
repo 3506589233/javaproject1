@@ -1,7 +1,6 @@
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.locks.ReentrantLock;
 
 class BankAccount implements Serializable {
     private String accountId,userName;
