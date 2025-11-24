@@ -41,7 +41,7 @@ class Producer implements Runnable {
             for (int i = 1; i <= 5; i++) {
                 int item = Integer.parseInt(name.substring(name.length()-1)) * 10 + i;
                 buffer.produce(item);
-                Thread.sleep(1000); // 模拟生产时间
+                Thread.sleep(1000);
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
@@ -134,7 +134,7 @@ class Producer implements Runnable {
             for (int i = 1; i <= 5; i++) {
                 int item = Integer.parseInt(name.substring(name.length()-1)) * 10 + i;
                 buffer.produce(item);
-                Thread.sleep(1000); // 模拟生产时间
+                Thread.sleep(1000);
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
