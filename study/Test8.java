@@ -51,7 +51,7 @@ class Fruts extends Manager{
     }
 }
 
-public class Test{
+public class Test8{
     public static Scanner cin = new Scanner(System.in);
     public static void main(String[] args){
         Fruts fruts = new Fruts();
